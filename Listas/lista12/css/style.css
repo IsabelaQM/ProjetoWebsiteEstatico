@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Para tirar a margem e padding dos elementos em bloco*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+header ul{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: #006680;
+    /* backgroun-color: rgb(00,102,128). Para transformar pode usar a calculadora do notebook. Cada par convertido para decimal*/
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+header a:link, a:visited{
+    color: white;
+}
+
+header a:hover{
+     color: #006680;
+     background-color: white;
+}
+
+header img{
+    width: 100%;
+}
+
+header h1, header h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    transition: all 0.5s;
+    /*Sempre o efeito coloca no elemento que vai aplicar a transição ao passar o mouse*/
+}
+
+header h1:hover{
+    letter-spacing: 5px;
+}
+
+h2{
+    color: yellow;
+}
+
+/*Main section*/
+
+main section{
+    background-color: white;
+    padding: 30px;
+    width: 1000px;
+    margin: auto;
+    text-align: justify;
+    /*Divide por igual a margem*/
+}
+main section p {
+	line-height: 1.5em;
+}
+
+main section:nth-child(even) {
+	background-color: lightgray;
+}
+
+main section:nth-child(odd) {
+	background-color: white;
+}
+
+main section ul li {
+	font-style: italic;
+	margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+.descricaoLista {
+	color: red;
+	font-weight: bold;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}

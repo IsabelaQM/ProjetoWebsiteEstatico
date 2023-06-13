@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+
+position: absolute;
+width: 2086px;
+height: 900px;
+left: 0px;
+top: 4614px;
+background: #EEEEEE;
+}
+
+.mentor{
+position: absolute;
+width: 1064px;
+height: 394px;
+left: 511px;
+top: 344px;
+}
+
+.imagem{
+position: absolute;
+width: 365px;
+height: 394px;
+left: calc(50% - 365px/2 + 349.5px);
+top: calc(50% - 394px/2 + 91px);
+border-radius: 20px;
+}
+
+.texto{
+position: absolute;
+float: left;
+width: 629px;
+height: 186px;
+left: calc(50% - 629px/2 - 217.5px);
+top: calc(50% - 186px/2 + 91px);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+
+
+/* Título
+
+position: absolute;
+width: 819px;
+height: 109px;
+left: calc(50% - 819px/2 + 0.5px);
+top: 110px;
+*/
+
+
+h2{
+position: absolute;
+width: 499px;
+height: 48px;
+left: calc(50% - 499px/2 + 0.5px);
+top: 110px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+}
+
+
+.descricao{
+position: absolute;
+width: 819px;
+height: 24px;
+left: calc(50% - 819px/2 + 0.5px);
+top: 195px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+
+hr{
+position: absolute;
+width: 213px;
+height: 0px;
+left: calc(50% - 213px/2 + 0.5px);
+top: 183px;
+border: 2px solid #C65300;
+}
+
+/* logo da empresa */
+.logo{
+position: absolute;
+width: 57px;
+height: 57px;
+right: 20px;
+top: 20px;
+background-image: url(../imagens/logo.jpg);
+}

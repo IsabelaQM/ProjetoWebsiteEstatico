@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+main{
+  width: 1200px;
+  margin: auto;
+}
+.projetos {
+  display: flex;
+  width: 1842px;
+  height: 1030px;
+  left: 0px;
+  top: 1766px;
+  background-color: #ffffff;
+}
+
+.projeto2 {
+  position: absolute;
+  width: 559px;
+  height: 490px;
+  left: 938px;
+  top: 337px;
+}
+
+.imagem2 {
+  position: absolute;
+  width: 559px;
+  height: 364px;
+  left: calc(50% - 559px / 2 + 296.5px);
+  top: calc(50% - 364px / 2 + 4px);
+  background-image: url(../imagens/pong.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+projetos .descricao2 {
+  position: absolute;
+  width: 529px;
+  height: 38px;
+  left: calc(50% - 529px / 2 + 281.5px);
+  top: calc(50% - 38px / 2 + 293px);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.projeto1 {
+  position: absolute;
+  width: 555px;
+  height: 490px;
+  left: 344px;
+  top: 337px;
+}
+
+projetos .descricao1 {
+  position: absolute;
+  width: 529px;
+  height: 38px;
+  left: calc(50% - 529px / 2 - 299.5px);
+  top: calc(50% - 38px / 2 + 293px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.titulo2 {
+  position: absolute;
+  width: 224px;
+  height: 22px;
+  left: calc(50% - 224px / 2 - 299px);
+  top: calc(50% - 22px / 2 + 226px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #c65300;
+}
+
+.imagem1 {
+  position: absolute;
+  width: 555px;
+  height: 361px;
+  left: calc(50% - 555px / 2 - 299.5px);
+  top: calc(50% - 361px / 2 + 2.5px);
+  background-image: url(../imagens/pokedex.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.titulo1 {
+  position: absolute;
+  width: 541px;
+  height: 102px;
+  left: calc(50% - 541px / 2 + 0.5px);
+  top: 110px;
+}
+
+.projetos h2 {
+  position: absolute;
+  width: 408px;
+  height: 48px;
+  left: calc(50% - 408px / 2 + 1px);
+  top: 110px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.descProjetos {
+  position: absolute;
+  width: 541px;
+  height: 24px;
+  left: calc(50% - 541px / 2 + 0.5px);
+  top: 188px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+hr {
+  position: absolute;
+  width: 213px;
+  height: 0px;
+  left: calc(50% - 213px / 2 + 1.5px);
+  top: 173px;
+  border: 2px solid #c65300;
+}

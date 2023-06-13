@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+main section {
+  width: 1200px;
+  margin: auto;
+}
+
+section .formulario {
+  position: absolute;
+  width: 1440px;
+  height: 800px;
+  left: 0px;
+  top: 5514px;
+
+  background: #ffffff;
+}
+
+h2 {
+  position: absolute;
+  width: 678px;
+  height: 48px;
+  left: calc(50% - 678px / 2 + 5px);
+  top: calc(50% - 48px / 2 - 101px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+p {
+  position: absolute;
+  width: 711px;
+  height: 24px;
+  left: calc(50% - 711px / 2 + 0.5px);
+  top: calc(50% - 24px / 2 - 28px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+hr {
+  position: absolute;
+  width: 213px;
+  height: 0px;
+  left: calc(50% - 213px / 2 + 0.5px);
+  top: calc(50% - 0px / 2 - 52px);
+  border: 2px solid #c65300;
+}
+
+form {
+  position: absolute;
+  width: 697px;
+  height: 48px;
+  left: calc(50% - 697px / 2 + 0.5px);
+  top: 476px;
+}
+/*.retangulo {
+  position: absolute;
+  width: 177px;
+  height: 47px;
+  left: calc(50% - 177px / 2 + 260.5px);
+  top: calc(50% - 47px / 2 + 99.5px);
+  background: #c65300;
+}*/
+
+.inputEmail {
+  position: absolute;
+  width: 520px;
+  height: 47px;
+  left: 372px;
+  top: 477px;
+  border: 0px;
+  left: calc(50% - 520px / 2 - 88px);
+  top: calc(50% - 47px / 2 + 100.5px);
+  background: #eeeeee;
+}
+
+.participar-button {
+  position: absolute;
+  width: 177px;
+  height: 47px;
+  border: 0px;
+  left: calc(50% - 177px / 2 + 260.5px);
+  top: calc(50% - 47px / 2 + 99.5px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  background-color: #c65300;
+  color: #ffffff;
+}
+
+.participar-button:hover{
+  background-color: #c27c4a;
+  cursor: pointer;
+}
